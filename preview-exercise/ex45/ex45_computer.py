@@ -14,7 +14,7 @@ class  Computer():
 		self.iuserHandtype=userHandtype
 		self.computerHandType="3"
 	
-	#set the computer type ,based on gametype
+	#set the computer type ,based on gametype and userHandtype
 	def SetComputerType(self):
 		print "The computer is thinking..."
 		if self.iGametype=="1":
